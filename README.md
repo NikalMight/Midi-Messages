@@ -12,7 +12,7 @@ A set of classes that represent MIDI messages. I haven't implemented Universal S
   - MidiChannelMessage
     - MidiVoiceMessage
       - MidiChannelPressure
-      - MidiControChange
+      - MidiControlChange
         - MidiAllNotesOff
         - MidiLocalControlOff
         - MidiLocalControlOn
