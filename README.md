@@ -60,7 +60,8 @@ This will create a new Note On message which will set the status byte and data b
 You can then send the message to your MIDI port eg if you're using the SimpleMIDIPort class from the SoundScores package, you would use
 
 ```smalltalk
-    | aPort|
+
+    | aPort |
     aPort := SimpleMidiPort new
       openOnPortNumber: 1;
       midiOutput: noteOn message.
