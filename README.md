@@ -26,20 +26,20 @@ A set of classes that represent MIDI messages. I haven't implemented Universal S
       - MidiPitchBend
       - MidiPolyPressure
       - MidiProgramChange
-    - MidiSystemMessage
-        - MidiSystemCommon
-          - MidiSongPositionPointer
-          - MidiSongSelect
-          - MidiTimingCodeQuarterFrame
-          - MidiTuneRequest
-        - MidiSystemExclusive
-        - MidiSystemRealtime
-          - MidiActiveSensing
-          - MidiContinueSequence
-          - MidiStartSequence
-          - MidiStopSequence
-          - MidiSystemReset
-          - MidiTimingClock
+  - MidiSystemMessage
+    - MidiSystemCommon
+      - MidiSongPositionPointer
+      - MidiSongSelect
+      - MidiTimingCodeQuarterFrame
+      - MidiTuneRequest
+    - MidiSystemExclusive
+    - MidiSystemRealtime
+      - MidiActiveSensing
+      - MidiContinueSequence
+      - MidiStartSequence
+      - MidiStopSequence
+      - MidiSystemReset
+      - MidiTimingClock
 
 ## Usage
 
