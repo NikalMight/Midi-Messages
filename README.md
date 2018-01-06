@@ -62,6 +62,6 @@ You can then send the message to your MIDI port eg if you're using the SimpleMID
 ```smalltalk
     | aPort|
     aPort := SimpleMidiPort new
-    openOnPortNumber: 1;
-    midiOutput: noteOn message.
+      openOnPortNumber: 1;
+      midiOutput: noteOn message.
 ```
