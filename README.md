@@ -8,38 +8,38 @@ A set of classes that represent MIDI messages. I haven't implemented Universal S
 
 ## Class Hierarchy
 
--MidiMessage
-    -MidiChannelMessage
-        -MidiVoiceMessage
-            -MidiChannelPressure
-            -MidiControChange
-                -MidiAllNotesOff
-                -MidiLocalControlOff
-                -MidiLocalControlOn
-                -MidiMonoModeOn
-                -MidiOmniModeOff
-                -MidiOmniModeOn
-                -MidiPolyModeOn
-                -MidiResetAllControllers
-            -MidiNoteOff
-            -MidiNoteOn
-            -MidiPitchBend
-            -MidiPolyPressure
-            -MidiProgramChange
-    -MidiSystemMessage
-        -MidiSystemCommon
-            -MidiSongPositionPointer
-            -MidiSongSelect
-            -MidiTimingCodeQuarterFrame
-            -MidiTuneRequest
-        -MidiSystemExclusive
-        -MidiSystemRealtime
-            -MidiActiveSensing
-            -MidiContinueSequence
-            -MidiStartSequence
-            -MidiStopSequence
-            -MidiSystemReset
-            -MidiTimingClock
+- MidiMessage
+  - MidiChannelMessage
+    - MidiVoiceMessage
+      - MidiChannelPressure
+      - MidiControChange
+        - MidiAllNotesOff
+        - MidiLocalControlOff
+        - MidiLocalControlOn
+        - MidiMonoModeOn
+        - MidiOmniModeOff
+        - MidiOmniModeOn
+        - MidiPolyModeOn
+        - MidiResetAllControllers
+      - MidiNoteOff
+      - MidiNoteOn
+      - MidiPitchBend
+      - MidiPolyPressure
+      - MidiProgramChange
+    - MidiSystemMessage
+        - MidiSystemCommon
+          - MidiSongPositionPointer
+          - MidiSongSelect
+          - MidiTimingCodeQuarterFrame
+          - MidiTuneRequest
+        - MidiSystemExclusive
+        - MidiSystemRealtime
+          - MidiActiveSensing
+          - MidiContinueSequence
+          - MidiStartSequence
+          - MidiStopSequence
+          - MidiSystemReset
+          - MidiTimingClock
 
 ## Usage
 
