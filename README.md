@@ -50,8 +50,10 @@ Example usage-
 ```smalltalk
 
     | noteOn |
-    noteOn := MidiNoteOn new.
-    noteOn channel: 1 note: 64 velocity: 127
+    noteOn := MidiNoteOn new
+      channel: 1
+      note: 64
+      velocity: 127.
 ```
 
 This will create a new Note On message which will set the status byte and data bytes 1 and 2 and will store them in a ByteArray called message(contained in the MidiMessage superclass).
@@ -59,7 +61,7 @@ You can then send the message to your MIDI port eg if you're using the SimpleMID
 
 ```smalltalk
     | aPort|
-    aPort := SimpleMidiPort new.
-    aPort openOnPortNumber: 1.
-    aPort midiOutput: (noteOn message)
+    aPort := SimpleMidiPort new
+    openOnPortNumber: 1;
+    midiOutput: noteOn message.
 ```
